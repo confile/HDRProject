@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImagePickerViewController.h"
+#import "DataController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class DataController;
+@class ImagePickerViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    DataController              *dataController;
+    ImagePickerViewController   *myImageViewController;
+}
+
+@property (strong, nonatomic) DataController            *dataController;
+@property (strong, nonatomic) ImagePickerViewController *myImageViewController;
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -20,3 +31,4 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 @end
+

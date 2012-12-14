@@ -24,6 +24,18 @@
 		F91238A1167B731500850B0D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9123880167B731400850B0D /* CoreData.framework */; };
 		F91238A9167B731500850B0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F91238A7167B731500850B0D /* InfoPlist.strings */; };
 		F91238AC167B731500850B0D /* HDRProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91238AB167B731500850B0D /* HDRProjectTests.m */; };
+		F91238C0167B737100850B0D /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91238B6167B737100850B0D /* DataController.m */; };
+		F91238C1167B737100850B0D /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91238B8167B737100850B0D /* ImagePickerViewController.m */; };
+		F91238C2167B737100850B0D /* ImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91238B9167B737100850B0D /* ImagePickerViewController.xib */; };
+		F91238C3167B737100850B0D /* landscape16001200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91238BA167B737100850B0D /* landscape16001200.jpg */; };
+		F91238C4167B737100850B0D /* damier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91238BB167B737100850B0D /* damier.jpg */; };
+		F91238C5167B737100850B0D /* testpaysage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91238BC167B737100850B0D /* testpaysage.jpg */; };
+		F91238C6167B737100850B0D /* imagetest.png in Resources */ = {isa = PBXBuildFile; fileRef = F91238BD167B737100850B0D /* imagetest.png */; };
+		F91238C7167B737100850B0D /* evamendescarre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91238BE167B737100850B0D /* evamendescarre.jpg */; };
+		F91238C8167B737100850B0D /* evamendes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F91238BF167B737100850B0D /* evamendes.jpg */; };
+		F91238CE167B748400850B0D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91238CD167B748400850B0D /* CoreImage.framework */; };
+		F91238D4167B782600850B0D /* HDRProject_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F91238D3167B782600850B0D /* HDRProject_57x57.png */; };
+		F91238D6167B782A00850B0D /* HDRProject_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F91238D5167B782A00850B0D /* HDRProject_114x114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +70,20 @@
 		F91238A8167B731500850B0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F91238AA167B731500850B0D /* HDRProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDRProjectTests.h; sourceTree = "<group>"; };
 		F91238AB167B731500850B0D /* HDRProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDRProjectTests.m; sourceTree = "<group>"; };
+		F91238B5167B737100850B0D /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		F91238B6167B737100850B0D /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		F91238B7167B737100850B0D /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		F91238B8167B737100850B0D /* ImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
+		F91238B9167B737100850B0D /* ImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePickerViewController.xib; sourceTree = "<group>"; };
+		F91238BA167B737100850B0D /* landscape16001200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape16001200.jpg; sourceTree = "<group>"; };
+		F91238BB167B737100850B0D /* damier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = damier.jpg; sourceTree = "<group>"; };
+		F91238BC167B737100850B0D /* testpaysage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testpaysage.jpg; sourceTree = "<group>"; };
+		F91238BD167B737100850B0D /* imagetest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagetest.png; sourceTree = "<group>"; };
+		F91238BE167B737100850B0D /* evamendescarre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evamendescarre.jpg; sourceTree = "<group>"; };
+		F91238BF167B737100850B0D /* evamendes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evamendes.jpg; sourceTree = "<group>"; };
+		F91238CD167B748400850B0D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F91238D3167B782600850B0D /* HDRProject_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDRProject_57x57.png; sourceTree = SOURCE_ROOT; };
+		F91238D5167B782A00850B0D /* HDRProject_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDRProject_114x114.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91238CE167B748400850B0D /* CoreImage.framework in Frameworks */,
 				F912387B167B731400850B0D /* UIKit.framework in Frameworks */,
 				F912387D167B731400850B0D /* Foundation.framework in Frameworks */,
 				F912387F167B731400850B0D /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +135,7 @@
 		F9123879167B731400850B0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F91238CD167B748400850B0D /* CoreImage.framework */,
 				F912387A167B731400850B0D /* UIKit.framework */,
 				F912387C167B731400850B0D /* Foundation.framework */,
 				F912387E167B731400850B0D /* CoreGraphics.framework */,
@@ -120,9 +148,11 @@
 		F9123882167B731400850B0D /* HDRProject */ = {
 			isa = PBXGroup;
 			children = (
-				F912388B167B731400850B0D /* AppDelegate.h */,
-				F912388C167B731400850B0D /* AppDelegate.m */,
+				F91238CA167B738100850B0D /* AppDelegate */,
+				F91238C9167B737900850B0D /* DataController */,
+				F91238CB167B738C00850B0D /* ImagePickerVC */,
 				F9123894167B731400850B0D /* HDRProject.xcdatamodeld */,
+				F91238CC167B73B500850B0D /* Images */,
 				F9123883167B731400850B0D /* Supporting Files */,
 			);
 			path = HDRProject;
@@ -159,6 +189,49 @@
 				F91238A7167B731500850B0D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F91238C9167B737900850B0D /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				F91238B5167B737100850B0D /* DataController.h */,
+				F91238B6167B737100850B0D /* DataController.m */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		F91238CA167B738100850B0D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F912388B167B731400850B0D /* AppDelegate.h */,
+				F912388C167B731400850B0D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F91238CB167B738C00850B0D /* ImagePickerVC */ = {
+			isa = PBXGroup;
+			children = (
+				F91238B7167B737100850B0D /* ImagePickerViewController.h */,
+				F91238B8167B737100850B0D /* ImagePickerViewController.m */,
+				F91238B9167B737100850B0D /* ImagePickerViewController.xib */,
+			);
+			name = ImagePickerVC;
+			sourceTree = "<group>";
+		};
+		F91238CC167B73B500850B0D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F91238D5167B782A00850B0D /* HDRProject_114x114.png */,
+				F91238D3167B782600850B0D /* HDRProject_57x57.png */,
+				F91238BA167B737100850B0D /* landscape16001200.jpg */,
+				F91238BB167B737100850B0D /* damier.jpg */,
+				F91238BC167B737100850B0D /* testpaysage.jpg */,
+				F91238BD167B737100850B0D /* imagetest.png */,
+				F91238BE167B737100850B0D /* evamendescarre.jpg */,
+				F91238BF167B737100850B0D /* evamendes.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +309,15 @@
 				F912388F167B731400850B0D /* Default.png in Resources */,
 				F9123891167B731400850B0D /* Default@2x.png in Resources */,
 				F9123893167B731400850B0D /* Default-568h@2x.png in Resources */,
+				F91238C2167B737100850B0D /* ImagePickerViewController.xib in Resources */,
+				F91238C3167B737100850B0D /* landscape16001200.jpg in Resources */,
+				F91238C4167B737100850B0D /* damier.jpg in Resources */,
+				F91238C5167B737100850B0D /* testpaysage.jpg in Resources */,
+				F91238C6167B737100850B0D /* imagetest.png in Resources */,
+				F91238C7167B737100850B0D /* evamendescarre.jpg in Resources */,
+				F91238C8167B737100850B0D /* evamendes.jpg in Resources */,
+				F91238D4167B782600850B0D /* HDRProject_57x57.png in Resources */,
+				F91238D6167B782A00850B0D /* HDRProject_114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +355,8 @@
 				F9123889167B731400850B0D /* main.m in Sources */,
 				F912388D167B731400850B0D /* AppDelegate.m in Sources */,
 				F9123896167B731400850B0D /* HDRProject.xcdatamodeld in Sources */,
+				F91238C0167B737100850B0D /* DataController.m in Sources */,
+				F91238C1167B737100850B0D /* ImagePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
